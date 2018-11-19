@@ -15,13 +15,12 @@ public class Filme {
 	}
 
 	// CONSTRUTOR COM TODOS OS ATRIBUTOS DA CLASSE
-	public Filme(String titulo, String duracao, int lancamento, String formato, String atores) {
+	public Filme(String titulo, String duracao, int lancamento, String formato) {
 		super();
 		this.titulo = titulo;
 		this.duracao = duracao;
 		this.lancamento = lancamento;
 		this.formato = formato;
-		this.atores = atores;
 	}
 
 	//MÉTODOS GETTERS DE TODOS OS ATRIBUTOS DA CLASSE
